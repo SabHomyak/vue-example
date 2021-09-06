@@ -18,7 +18,9 @@
 </template>
 
 <script>
-    import MyInput from "./UI/MyInput";
+
+    import MyInput from "@/components/UI/MyInput";
+
     export default {
         name: "PostForm",
         components: {MyInput},
@@ -43,7 +45,7 @@
                     body: ''
                 }
             }
-        }
+        },
     }
 </script>
 
